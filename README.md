@@ -2,6 +2,13 @@
 
 This project provides a comprehensive analysis of U.S. housing prices using both traditional statistical methods and deep learning approaches. The workflow consists of two main phases: exploratory spatio-temporal analysis in R and predictive modeling using LSTM neural networks in Python.
 
+## Project Background
+Accurate house price prediction plays a vital role for real estate stakeholders and policymakers, influencing investment risk control, strategic planning, and macroeconomic stability. While numerous studies have explored U.S. housing prices, most existing models either:
+- Focus on purely temporal trends, ignoring spatial dependencies between regions;
+- Use coarse-grained data at the state or national level, missing local heterogeneity;
+- Apply static models that fail to capture dynamic changes in market drivers over time.
+- This project addresses these gaps by developing a spatiotemporal predictive framework for the U.S. housing market, leveraging the Zillow Home Value Index’s long-term, fine-grained dataset. By integrating both spatial autocorrelation and temporal evolution, the study aims to provide more accurate forecasts and uncover how regional economic conditions, urbanization, and housing policies jointly shape price dynamics.
+
 ## Project Workflow
 
 The analysis examines housing price patterns across different U.S. states over time, incorporating both spatial and temporal dimensions to understand market dynamics and predict future price trends.
